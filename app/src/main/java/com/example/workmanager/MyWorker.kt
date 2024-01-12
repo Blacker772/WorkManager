@@ -30,7 +30,7 @@ class MyWorker(
         sendNotification()
         delay(1000)
         sendData()
-        delay(1000)
+        delay(3000)
         return Result.success(sendData())
     }
 

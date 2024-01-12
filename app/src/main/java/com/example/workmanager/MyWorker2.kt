@@ -18,7 +18,7 @@ class MyWorker2(
     override suspend fun doWork(): Result {
         delay(2000)
         sendNotification()
-        delay(1000)
+        delay(4000)
        return Result.success()
     }
 
